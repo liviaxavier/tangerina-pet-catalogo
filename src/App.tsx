@@ -69,7 +69,8 @@ function App() {
   }
   return <>
       <Grid container md={8} margin={"auto"}>
-        {isAuthenticated ? <RouterProvider router={router} /> : <Auth/>}
+        <RouterProvider router={router} />
+        {/* {isAuthenticated ? <RouterProvider router={router} /> : <Auth/>} */}
       </Grid> 
       {showFooter(isAuthenticated) && <Footer />}
   </>

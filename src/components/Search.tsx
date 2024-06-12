@@ -1,7 +1,7 @@
 import { Button, Grid, List, ListItem, ListItemButton, ListItemText, TextField } from "@mui/material";
 import { useCallback, useEffect, useState } from "react";
 import { Link } from "react-router-dom";
-import logo from '../assets/150e9b_c64f84cf34ad43049086d4a4ebc049f5~mv2.webp'
+import logo from '../assets/logo_tangerina_orange.png'
 import {useAuth0  } from '@auth0/auth0-react';
 
 
