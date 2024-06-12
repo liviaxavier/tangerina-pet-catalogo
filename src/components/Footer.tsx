@@ -1,11 +1,13 @@
 import { Grid } from "@mui/material";
 // import logo from '../assets/tona_logo_completa_3 1.png'
 import '../styles/footer.css'
-import { FaInstagram, FaLinkedin, FaWhatsapp } from "react-icons/fa";
+import { FaInstagram
+    // ,FaLinkedin, FaWhatsapp
+ } from "react-icons/fa";
 import tangerina_logo_fff from '../assets/logo_tangerina_white.png'
 
 export default function Footer(){
-    const image_width = "100px"
+    // const image_width = "100px"
     return <Grid container className="footer" padding={4}>
         <Grid className="footer__brand" item sm={6} md={4}>
             <img height={"30px"} src={tangerina_logo_fff} />
